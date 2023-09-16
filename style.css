@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff5b5;
+    display: grid;
+    place-items: center;
+  }
+  form{
+    background-color:#fd6b6b;
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align:center;
+    box-shadow: 0 10px 6px -6px #777;
+  }
+  #tempCal lable{
+    font-size:25px;
+  }
+  #temp{
+    border: solid purple;
+    padding:10px;
+    height:40px;
+    width:175px;
+    font-size:20px;
+    margin-top:20px;
+  }
+  #temp_diff{
+    height:40px;
+    width: 100px;
+    border: solid purple;
+    margin-top:20px;
+    font-size:15px;
+    vertical-align:top;
+  }
+  [type="submit"] {
+    height:35px;
+    margin:20px;
+    width:100px;
+    font-size:15px;
+  /*   border:none; */
+    background-color: purple;
+    color:white;
+    border-radius:7px solid black;
+  }
+  #resultContainer{
+    font-size:35px;
+  }
+  lable{
+    font-size:17px;
+  }
